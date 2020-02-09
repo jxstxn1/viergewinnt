@@ -1,7 +1,4 @@
-package pack1;
-
 import javax.imageio.ImageIO;
-import javax.swing.*;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
@@ -12,8 +9,8 @@ public class ImageLoader {
 
     public ImageLoader() {
         try{
-            imgX = ImageIO.read(new File("rsc/x.png"));
-            imgO = ImageIO.read(new File("rsc/o.png"));
+            imgX = ImageIO.read(new File("rsc/blue.jpg"));
+            imgO = ImageIO.read(new File("rsc/red.jpg"));
         }catch (IOException e){
             e.printStackTrace();
         }
