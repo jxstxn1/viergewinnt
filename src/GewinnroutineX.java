@@ -10,7 +10,6 @@ public class GewinnroutineX {
 
             @Override
             public void run() {
-                hwfeuhisefhsfuh
 
 
                 if (Gui.gewinner == 0) {

@@ -9,8 +9,8 @@ public class ImageLoader {
 
     public ImageLoader() {
         try{
-            imgX = ImageIO.read(new File("VierGewinnt/rsc/blue.jpg"));
-            imgO = ImageIO.read(new File("VierGewinnt/rsc/red.jpg"));
+            imgX = ImageIO.read(new File("rsc/blue.jpg"));
+            imgO = ImageIO.read(new File("rsc/red.jpg"));
         }catch (IOException e){
             e.printStackTrace();
         }
